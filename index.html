@@ -1,0 +1,141 @@
+<!-- https://youtu.be/ghZZB_7HFS8 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <!-- <link rel="stylesheet" href="style.css" > -->
+    <style>
+        /* Id selector */
+        #skill{
+            color: red;
+            border: 5px solid rebeccapurple;
+            background-color: black;
+        }
+
+        /* class selector */
+        .name{
+            color: brown; 
+            font-size: 50px;
+        }
+        
+        /* group selector */
+        footer , table{
+            color: greenyellow;
+            
+            background-color: rgb(0, 0, 0);
+            border: 5px solid red;
+            padding: 1em;
+        }
+        body{
+            background-color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            font-size: large;
+            /* background-image: 
+                url("/hello/images.jpg"); */
+        }
+        th{
+            border: 5px solid blue;
+        }
+        
+    </style>
+    <script>
+                function setbackground()
+        {
+        window.setTimeout( "setbackground()", 500); // 5000 milliseconds delay
+        var index = Math.round(Math.random() * 4);
+        var ColorValue = "FFFFFF"; // default color - white (index = 0)
+
+        if(index == 1)
+        ColorValue = "FFCCCC"; //peach
+        if(index == 2)
+        ColorValue = "CCAFFF"; //violet
+        if(index == 3)
+        ColorValue = "A6BEFF"; //lt blue
+        if(index == 4)
+        ColorValue = "99FFFF"; //cyan
+        document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+        }
+    </script>
+</head>
+
+<body onload="setbackground()">
+    <!--h1 is for heading 1 and h2 is so on also h1 has bigest front size and h2 has second bigest front size....-->
+    <pre><span><h1 class="name"><a href="https://www.linkedin.com/in/sanket-agarthade-62030617b/">Sanket Agarthade                            <img id="me" src="Sanket.jpg" width="200"></a></h1></span></pre>
+    <hr><!-- this for put horztinal line  -->
+<div style="color:blue ;background-color:ghostwhite">
+    <pre id="skill"><u><big><b>Skills:-</b></big></u>
+        ➢I am done a Diploma in Electronics Telecommunication from Muchhala polytechnic.
+        ➢ I have basic knowledge of computers(window & Linux ), coding(in python, C programming) & network devices(like router or switch). 
+        ➢ I can speak well in English, Hindi & Marathi.
+</pre></div><!--div will take full section of screen-->
+
+
+
+<span><u><big><b>Academic qualification:-</b></big></u></span><!--span not will take full section of screen only as much text need-->
+
+
+<table style="width: 20%">
+
+    <tr> 
+    <th><pre><big>Examination                               </big></pre></th>
+    <th><pre><big>School/Collage                    </big></pre></th>
+    <th><pre><big>Board /university          </big></pre></th>
+    <th>Result</th>
+</tr>
+
+<tr>
+    <td>B.E. Computer Science and Engineering (IoT & Cyber Security including Blockchain Technology)</td>
+    <td> Lokmanya Tilak College of Engineering </td>
+    <td>MUMBAI UNIVERSITY</td>
+    <td> On going</td>
+</tr>
+<tr>
+    <td>CCNA (Cisco Certified Network Associate) </td>
+    <td>Cisco networking academy Cisco </td>
+    <td>CISCO</td>
+    <td>Pass</td>
+</tr>
+<tr>
+    <td>Diploma (Electronics Telecommunication)</td> 
+    <td>Muchhala polytechnic</td> 
+    <td>MUMBAI UNIVERSITY </td>
+    <td>89%</td>
+</tr>
+<tr >
+    <td>Secondary (10th)   </td>
+    <td>Kendriya Vidyalaya Ambernath </td>
+    <td>CBSE </td>
+    <td>60%</td>
+</tr>
+</table>
+
+
+<pre><u><big><b>perience:-</b></big></u>
+    <small>April 2019 -July 2019</small>
+    <b>Nishant Power Solutions Pvt. Ltd, Thane</b> - Internships 
+        ➢ I have sent emails to many customs about product details & Answers their query too.
+        ➢ I call customs to give info about product details & solve the query.
+
+<u><big><b>dividual skillsets:-</b></big></u>
+        ➢ Good communication and presentation skills. 
+        ➢ Can converse in English, Hindi, Marathi well.
+        ➢ Basic information of Share Market & Money Market 
+    </pre>
+
+<u><big><b>Computer skill sets:-</b></big></u>
+<ol type="square">
+        <li> Can Work on PowerPoint, Word, & office in windows.</li>
+        <li> I have basic knowledge about python & C programs.</li>
+        <li> I can work with Linux & windows.</li>
+        <li> Soon going given DevNet software development(CCDA DEVASC 200-901).</li>
+</ol>
+
+<footer>contact me <u>9146745813</u></footer>
+
+</body>
+</html>
